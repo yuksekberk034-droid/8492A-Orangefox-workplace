@@ -21,4 +21,4 @@ jobs:
           DEVICE_PATH: "device/tcl/8492A"
           DEVICE_NAME: "8492A"
           BUILD_TARGET: "boot"
-          MAINTAINER_AVATAR: "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+          MAINTAINER_URL: "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
