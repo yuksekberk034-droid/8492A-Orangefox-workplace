@@ -18,6 +18,7 @@ jobs:
           USER_EMAIL: "builder@example.com"
           DEVICE_TREE: "https://github.com/yuksekberk034-droid/8492A-Orangefox-workplace"
           DEVICE_TREE_BRANCH: "main"
-          DEVICE_PATH: "device/tcl/8492A" # Adjust to match your vendor/codename path
-          DEVICE_NAME: "8492A" # Adjust to match the codename from your BoardConfig.mk
-          BUILD_TARGET: "boot" # Use "boot" if you are building from boot.img
+          DEVICE_PATH: "device/tcl/8492A"
+          DEVICE_NAME: "8492A"
+          BUILD_TARGET: "boot"
+          MAINTAINER_AVATAR: "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
