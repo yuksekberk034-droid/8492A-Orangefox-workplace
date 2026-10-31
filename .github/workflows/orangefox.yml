@@ -16,7 +16,7 @@ jobs:
         with:
           USER_NAME: "Builder"
           USER_EMAIL: "builder@example.com"
-          DEVICE_TREE: "https://github.com/yuksekberk034-droid/8492A-Orangefox-workplace.git"
+          DEVICE_TREE: "https://github.com/yuksekberk034-droid/8492A-Orangefox-workplace"
           DEVICE_TREE_BRANCH: "main"
           DEVICE_PATH: "device/tcl/8492A" # Adjust to match your vendor/codename path
           DEVICE_NAME: "8492A" # Adjust to match the codename from your BoardConfig.mk
