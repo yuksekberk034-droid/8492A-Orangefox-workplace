@@ -1,21 +1,14 @@
-#
-# Copyright (C) 2026 The Android Open Source Project
-# Copyright (C) 2026 SebaUbuntu's TWRP device tree generator
-#
-# SPDX-License-Identifier: Apache-2.0
-#
-
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common Omni stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
+# Inherit some common TWRP stuff.
+$(call inherit-product, vendor/twrp/config/common.mk)
 
-# Inherit from Freyr_10_1_WiFi device
-$(call inherit-product, device/tcl/Freyr_10_1_WiFi/device.mk)
+# Inherit from 8492A device
+$(call inherit-product, device/tcl/8492A/device.mk)
 
-PRODUCT_DEVICE := Freyr_10_1_WiFi
+PRODUCT_DEVICE := 8492A
 PRODUCT_NAME := twrp_8492A
 PRODUCT_BRAND := TCL
 PRODUCT_MODEL := 8492A
