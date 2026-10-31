@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_Freyr_10_1_WiFi.mk
+    $(LOCAL_DIR)/twrp_8492A.mk
 
 COMMON_LUNCH_CHOICES := \
     omni_Freyr_10_1_WiFi-user \
     omni_Freyr_10_1_WiFi-userdebug \
-    omni_Freyr_10_1_WiFi-eng
+    twrp_8492A-eng \
