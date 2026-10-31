@@ -16,7 +16,7 @@ $(call inherit-product, vendor/omni/config/common.mk)
 $(call inherit-product, device/tcl/Freyr_10_1_WiFi/device.mk)
 
 PRODUCT_DEVICE := Freyr_10_1_WiFi
-PRODUCT_NAME := omni_Freyr_10_1_WiFi
+PRODUCT_NAME := twrp_8492A
 PRODUCT_BRAND := TCL
 PRODUCT_MODEL := 8492A
 PRODUCT_MANUFACTURER := tcl
