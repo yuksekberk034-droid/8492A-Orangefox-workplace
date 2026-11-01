@@ -8,3 +8,4 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 ```
+Warning! this repository is not a safe site to trust. everything here is experimental. I do not take responsibility for your bricked devices.
