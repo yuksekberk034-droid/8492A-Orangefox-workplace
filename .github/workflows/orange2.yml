@@ -1,0 +1,33 @@
+name: Build OrangeFox Recovery2
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Build OFOX
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    # Pass the GitHub Token to prevent manual 8-digit device authorization
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: OrangeFox Build
+        uses: UWU-TEAM/UWU-OrangeFox-Builder@v1.0.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USER_NAME: "Builder"
+          USER_EMAIL: "builder@example.com"
+          DEVICE_TREE: "https://github.com/yuksekberk034-droid/8492A-Orangefox-workplace"
+          DEVICE_TREE_BRANCH: "main"
+          DEVICE_PATH: "device/tcl/8492A"
+          DEVICE_NAME: "8492A"
+          BUILD_TARGET: "boot"
+          MAINTAINER_URL: "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
