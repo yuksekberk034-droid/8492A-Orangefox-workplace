@@ -15,7 +15,7 @@ auto                      vfat     /devices/platform/mt_usb*            flags=di
 /proinfo                  emmc     /dev/block/by-name/proinfo           flags=display=proinfo
 /bootloader               emmc     /dev/block/by-name/lk                flags=display=bootloader
 /bootloader2              emmc     /dev/block/by-name/lk2               flags=display=bootloader2
-/misc                     emmc     /dev/block/by-name/para              flags=display=misc
+/para                     emmc     /dev/block/by-name/para              flags=display=misc
 /vendor_boot              emmc     /dev/block/by-name/vendor_boot       flags=display=vendor_boot
 /boot                     emmc     /dev/block/by-name/boot              flags=display=boot;slotselect
 /vbmeta_vendor            emmc     /dev/block/by-name/vbmeta_vendor     flags=display=vbmeta_vendor;slotselect
