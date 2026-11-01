@@ -122,5 +122,29 @@ FOX_REMOVE_BASH := true
 FOX_REMOVE_AAPT := true
 FOX_DELETE_AROMAFM := true
 
-# Fix Low UI Refresh Rate
-TW_FRAMERATE := 60
+# Block the broken touchscreen from spamming the input queue
+TW_INPUT_BLACKLIST := "touchscreen_device_name_here"
+
+# Maximum Ramdisk Compression
+BOARD_RAMDISK_USE_XZ := true
+# (Remove BOARD_RAMDISK_USE_LZ4 if you still have it)
+
+# Ultra-Aggressive Size Reduction
+TW_EXCLUDE_PYTHON := true
+TW_EXCLUDE_NANO := true
+TW_EXCLUDE_BASH := true
+TW_EXCLUDE_NTFS_3G := true
+TW_EXCLUDE_TZDATA := true
+TW_DISABLE_TTF := true
+TW_NO_BIND_SYSTEM := true
+TW_OZIP_SUPPORT := false
+TW_EXCLUDE_APEX := true
+
+# Remove unnecessary bloat
+TW_EXCLUDE_TWRPAPP := true
+TW_EXCLUDE_DEFAULT_USB_INIT := true
+TW_EXTRA_LANGUAGES := false
+OFOX_DISABLE_BOOTDASHBOARD := 1
+OFOX_ENABLE_APP_MANAGER := 0
+
+
