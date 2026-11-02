@@ -116,6 +116,7 @@ TW_USE_TOOLBOX := true
 TW_INCLUDE_REPACKTOOLS := false
 TW_MAX_BRIGHTNESS := 255
 TW_DEFAULT_BRIGHTNESS := 150
+TW_BRIGHTNESS_PATH := "/sys/class/leds/lcd-backlight/brightness"
 
 # OrangeFox Size Reduction
 FOX_EXCLUDE_NANO := true
