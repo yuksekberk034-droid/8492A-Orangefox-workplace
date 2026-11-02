@@ -122,12 +122,10 @@ FOX_REMOVE_BASH := true
 FOX_REMOVE_AAPT := true
 FOX_DELETE_AROMAFM := true
 
-# Block the broken touchscreen from spamming the input queue
-TW_INPUT_BLACKLIST := "touchscreen_device_name_here"
-
-# Maximum Ramdisk Compression
-BOARD_RAMDISK_USE_LZ4 := true
-# (Remove BOARD_RAMDISK_USE_LZ4 if you still have it)
+BOARD_RAMDISK_USE_LZ4 := false
+LZMA_RAMDISK_TARGETS := boot,recovery
+FOX_USE_LZMA_COMPRESSION := true
+FOX_USE_XZ_RECOVERY_RAMDISK := true
 
 # Ultra-Aggressive Size Reduction
 TW_EXCLUDE_PYTHON := true
