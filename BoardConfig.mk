@@ -109,7 +109,7 @@ PLATFORM_VERSION := 16.1.0
 # TWRP Configuration
 TW_THEME := portrait_hdpi
 TW_EXTRA_LANGUAGES := false
-TW_SCREEN_BLANK_ON_BOOT := true
+TW_SCREEN_BLANK_ON_BOOT := false
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_TOOLBOX := true
 TW_INCLUDE_REPACKTOOLS := false
@@ -123,8 +123,6 @@ FOX_REMOVE_AAPT := true
 FOX_DELETE_AROMAFM := true
 
 BOARD_RAMDISK_USE_LZ4 := false
-LZMA_RAMDISK_TARGETS := boot,recovery
-FOX_USE_LZMA_COMPRESSION := true
 FOX_USE_XZ_RECOVERY_RAMDISK := true
 
 # Ultra-Aggressive Size Reduction
