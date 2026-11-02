@@ -124,9 +124,6 @@ FOX_REMOVE_BASH := true
 FOX_REMOVE_AAPT := true
 FOX_DELETE_AROMAFM := true
 
-BOARD_RAMDISK_USE_LZ4 := false
-FOX_USE_XZ_RECOVERY_RAMDISK := true
-
 # Ultra-Aggressive Size Reduction
 TW_EXCLUDE_PYTHON := true
 TW_EXCLUDE_NANO := true
