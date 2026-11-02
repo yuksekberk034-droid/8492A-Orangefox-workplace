@@ -126,7 +126,7 @@ FOX_DELETE_AROMAFM := true
 TW_INPUT_BLACKLIST := "touchscreen_device_name_here"
 
 # Maximum Ramdisk Compression
-BOARD_RAMDISK_USE_GZIP := true
+BOARD_RAMDISK_USE_LZ4 := true
 # (Remove BOARD_RAMDISK_USE_LZ4 if you still have it)
 
 # Ultra-Aggressive Size Reduction
