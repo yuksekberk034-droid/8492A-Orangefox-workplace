@@ -124,17 +124,6 @@ FOX_REMOVE_BASH := true
 FOX_REMOVE_AAPT := true
 FOX_DELETE_AROMAFM := true
 
-# Ultra-Aggressive Size Reduction
-TW_EXCLUDE_PYTHON := true
-TW_EXCLUDE_NANO := true
-TW_EXCLUDE_BASH := true
-TW_EXCLUDE_NTFS_3G := true
-TW_EXCLUDE_TZDATA := true
-TW_DISABLE_TTF := true
-TW_NO_BIND_SYSTEM := true
-TW_OZIP_SUPPORT := false
-TW_EXCLUDE_APEX := true
-
 # Remove unnecessary bloat
 TW_EXCLUDE_TWRPAPP := true
 TW_EXTRA_LANGUAGES := false
