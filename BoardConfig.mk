@@ -22,7 +22,7 @@ AB_OTA_PARTITIONS += \
     vendor
 
 # --- Modern V3/V4 Boot Architecture ---
-BOARD_USES_RECOVERY_AS_BOOT := false
+BOARD_USES_RECOVERY_AS_BOOT := true
 BOARD_MOVE_RECOVERY_RESOURCES_TO_VENDOR_BOOT := true
 TARGET_NO_RECOVERY := true
 
@@ -125,15 +125,6 @@ TW_INCLUDE_REPACKTOOLS := false
 TW_MAX_BRIGHTNESS := 255
 TW_DEFAULT_BRIGHTNESS := 150
 TW_BRIGHTNESS_PATH := "/sys/class/leds/lcd-backlight/brightness"
-
-# OrangeFox Size Reduction
-FOX_REMOVE_AAPT := true
-FOX_DELETE_AROMAFM := true
-
-# Remove unnecessary bloat
-TW_EXCLUDE_TWRPAPP := true
-TW_EXTRA_LANGUAGES := false
-OFOX_ENABLE_APP_MANAGER := 0
 
 TW_INCLUDE_CRYPTO := true
 TW_INCLUDE_CRYPTO_FBE := true
