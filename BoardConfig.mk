@@ -23,7 +23,6 @@ AB_OTA_PARTITIONS += \
 
 # --- Modern V3/V4 Boot Architecture ---
 BOARD_USES_RECOVERY_AS_BOOT := true
-BOARD_MOVE_RECOVERY_RESOURCES_TO_VENDOR_BOOT := true
 TARGET_NO_RECOVERY := true
 
 # --- Authorize vendor_boot Generation ---
