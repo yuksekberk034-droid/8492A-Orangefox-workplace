@@ -127,8 +127,6 @@ TW_DEFAULT_BRIGHTNESS := 150
 TW_BRIGHTNESS_PATH := "/sys/class/leds/lcd-backlight/brightness"
 
 # OrangeFox Size Reduction
-FOX_EXCLUDE_NANO := true
-FOX_REMOVE_BASH := true
 FOX_REMOVE_AAPT := true
 FOX_DELETE_AROMAFM := true
 
@@ -145,8 +143,6 @@ FOX_USE_XZ_RECOVERY_RAMDISK := false
 # --- Extreme GZIP Size Reduction ---
 FOX_MINIMAL_IMAGE := true
 FOX_REMOVE_AAPT := true
-FOX_REMOVE_BASH := true
-FOX_EXCLUDE_NANO := true
 FOX_EXCLUDE_TAR := true
 FOX_DELETE_MAGISK_ADDON := true
 TW_EXCLUDE_FASTBOOTD := true
@@ -163,7 +159,6 @@ BOARD_RAMDISK_COMPRESSION_ARGS := -9
 # Strip heavy utilities
 TW_EXCLUDE_TZDATA := true
 TW_INCLUDE_NTFS_3G := false
-FOX_EXCLUDE_NANO := true
 FOX_EXCLUDE_TAR := true
 TW_EXCLUDE_TWRPAPP := true
 TW_EXCLUDE_FASTBOOTD := true
