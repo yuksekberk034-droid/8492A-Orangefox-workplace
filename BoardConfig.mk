@@ -146,7 +146,6 @@ FOX_EXCLUDE_UPDATE_BINARY := true
 
 # Decryption & Metadata
 BOARD_USES_METADATA_PARTITION := true
-TW_INCLUDE_CRYPTO := true
 # --- Extreme Ramdisk Size Reduction (GZIP) ---
 BOARD_RAMDISK_COMPRESSION_ARGS := -9
 
