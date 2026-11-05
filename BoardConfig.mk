@@ -23,9 +23,13 @@ AB_OTA_PARTITIONS += \
 
 # --- Modern V3/V4 Boot Architecture ---
 BOARD_MOVE_RECOVERY_RESOURCES_TO_VENDOR_BOOT := true
+BOARD_INCLUDE_RECOVERY_RAMDISK_IN_VENDOR_BOOT := true
+TW_INCLUDE_REPACKTOOLS := true
+BOARD_BOOT_HEADER_VERSION := 3
 TARGET_NO_RECOVERY := false
 
-
+# Vendor Boot Partition Size (64 MB)
+BOARD_VENDOR_BOOTIMAGE_PARTITION_SIZE := 67108864
 
 FOX_AB_DEVICE := true
 
@@ -122,6 +126,12 @@ TW_MAX_BRIGHTNESS := 255
 TW_DEFAULT_BRIGHTNESS := 150
 TW_BRIGHTNESS_PATH := "/sys/class/leds/lcd-backlight/brightness"
 
+# Ramdisk Compression
+BOARD_RAMDISK_USE_LZ4 := true
+LZ4_RAMDISK_COMPRESS_ARGS := -l -3
+
+# Boot Header
+BOARD_BOOT_HEADER_VERSION := 3  # Update to 4 if your unpacked vendor_boot header shows v4
 
 
 
