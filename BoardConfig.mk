@@ -131,9 +131,6 @@ TW_BRIGHTNESS_PATH := "/sys/class/leds/lcd-backlight/brightness"
 BOARD_RAMDISK_USE_LZ4 := true
 LZ4_RAMDISK_COMPRESS_ARGS := -l -3
 
-# Boot Header
-BOARD_BOOT_HEADER_VERSION := 3  # Update to 4 if your unpacked vendor_boot header shows v4
-
 
 
 
