@@ -22,8 +22,10 @@ AB_OTA_PARTITIONS += \
     vendor
 
 # --- Modern V3/V4 Boot Architecture ---
-BOARD_USES_RECOVERY_AS_BOOT := true
-TARGET_NO_RECOVERY := true
+BOARD_MOVE_RECOVERY_RESOURCES_TO_VENDOR_BOOT := true
+TARGET_NO_RECOVERY := false
+
+
 
 FOX_AB_DEVICE := true
 
