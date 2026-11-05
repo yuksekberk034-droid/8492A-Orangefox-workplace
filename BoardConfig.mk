@@ -131,6 +131,8 @@ TW_BRIGHTNESS_PATH := "/sys/class/leds/lcd-backlight/brightness"
 BOARD_RAMDISK_USE_LZ4 := true
 LZ4_RAMDISK_COMPRESS_ARGS := -l -3
 
-
+TW_INCLUDE_CRYPTO := true
+TW_INCLUDE_CRYPTO_FBE := true
+BOARD_USES_METADATA_ENCRYPTION := true
 
 
