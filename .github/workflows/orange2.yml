@@ -29,5 +29,5 @@ jobs:
           DEVICE_TREE_BRANCH: "main"
           DEVICE_PATH: "device/tcl/8492A"
           DEVICE_NAME: "8492A"
-          BUILD_TARGET: "boot"
+          BUILD_TARGET: "vendorboot"
           MAINTAINER_URL: "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
