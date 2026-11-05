@@ -27,6 +27,7 @@ TW_INCLUDE_REPACKTOOLS := true
 BOARD_BOOT_HEADER_VERSION := 4
 BOARD_INCLUDE_RECOVERY_RAMDISK_IN_VENDOR_BOOT := true
 TARGET_NO_RECOVERY := false
+TARGET_PREBUILT_VENDOR_BOOTIMAGE := $(DEVICE_PATH)/prebuilt/vendor_boot.img
 
 # Force mkbootimg to use header v3 (Change to 4 if your stock boot is v4)
 BOARD_MKBOOTIMG_ARGS += --header_version 4
