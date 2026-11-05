@@ -27,6 +27,9 @@ TW_INCLUDE_REPACKTOOLS := true
 BOARD_BOOT_HEADER_VERSION := 3
 TARGET_NO_RECOVERY := false
 
+# Force mkbootimg to use header v3 (Change to 4 if your stock boot is v4)
+BOARD_MKBOOTIMG_ARGS += --header_version 3
+
 # Vendor Boot Partition Size (64 MB)
 BOARD_VENDOR_BOOTIMAGE_PARTITION_SIZE := 67108864
 
